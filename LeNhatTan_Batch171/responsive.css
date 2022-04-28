@@ -1,0 +1,42 @@
+@media only screen and (max-width: 760px) {
+    .application .left {
+      flex-basis: 100%;
+      padding: 24px; 
+    }
+    .application .right {
+        flex-basis: 100%;
+        padding: 24px;
+      }
+      /* why choose us? */
+      .why .col-why {
+        flex-basis: 100%;
+      }
+      .why .row {
+        padding: 24px;
+      }
+
+      /* footer */
+      .footer .contact {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .footer .social {
+        flex-basis: 100%;
+        text-align: center;
+        padding: 24px;
+        margin: auto;
+    }
+
+    /* map-form */
+    .map .form-user .user {
+      width: 100%; 
+  }
+  .map .container-fluid {
+    padding: 32px 0;}
+    #input-messages{
+      height: 64px;
+    }
+   
+    }
+
+  

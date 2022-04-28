@@ -1,0 +1,287 @@
+html {
+    line-height: 1.4;
+}
+/* common */
+p {
+    margin: 0;
+}
+.size-20 {
+    font-size: 20px;
+    margin: 0;
+}
+.size-30 {
+    font-size: 30px;
+    margin: 0;
+}
+.size-46 {
+    font-size: 46px;
+    margin-bottom: 16px;
+}
+.size-64 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+.brown {
+    color: #c7a17a;
+    margin: 0;
+}
+.pink {
+    color: #c7a278;
+}
+.btn {
+    font-weight: 500;
+    margin: 24px 0;
+}
+.btn-brown {
+    background-color: #c7a17a;
+    border-radius: 0;
+    padding:8px 24px;
+    margin: 32px 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+.background-black {
+    background-color: #000;
+    color: #fff;
+    padding: 32px;
+}
+
+.background-img {
+    background-image: url(images/banner2.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    color: #fff;
+}
+
+/* navbar */
+.navbar-background {
+    background-color: rgba(0,0,0, 0.5);
+    margin-bottom: 0;
+   
+}
+
+.header .navbar .nav-link{
+    color: #fff;
+    font-weight: 400;
+    padding: 0 10px;
+}
+.header .navbar img {
+    width: 200px;
+    padding: 0 24px;
+}
+.header .navbar-right {
+    justify-content: end;
+}
+/* content baner header */
+
+.content-top {
+    margin-top: 48px;
+}
+.content-top .btn {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 0;
+    margin: 56px;
+   
+}
+.content-top .btn:hover {
+    color: #ccc;
+    border: 2px solid #ccc;
+}
+/* title */
+.title img {
+    max-width: 100%;
+}
+/* application */
+.application {
+    padding: 80px 0;
+}
+.application .row{
+justify-content: space-evenly;
+margin: 0;
+}
+.application .left{
+   flex-basis: 30%;
+}
+.application .right{
+      flex-basis: 40%;
+      margin: auto 0;
+}
+
+.application .right img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 400px;
+}
+
+/* why choose us? */
+.why .row{
+justify-content: space-evenly;
+padding: 30px 64px;
+}
+.col-why {
+    flex-basis: 30%;
+}
+.why .skill {
+    padding: 12px 0;
+   
+}
+/* Product */
+.product {
+    background-image: url(images/banner3.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 48px 0;
+}
+
+.product .thumbnail {
+    background-color: #fff;
+    color: #000;
+    margin: 24px 0;
+}
+.product-img {
+    background-color: #e2d0bc;
+    padding: 56px 0;
+    max-height: 240px;
+}
+
+.product img {
+    object-fit: cover;
+    max-width: 100%;
+   max-height: 140px;
+}
+.product .product-content{
+    padding: 32px 56px;
+    font-weight: bold;
+    max-height: 190px;
+}
+
+/* blog */
+.blog .blog-header{
+    padding-bottom: 46px;
+}
+.blog .thumbnail {
+    margin-bottom: 24px;
+}
+.blog img {
+    max-width: 100%;
+}
+.blog-name {
+line-height: 30px;
+padding: 24px 0;
+}
+/* slogan */
+.slogan {
+    background-image: url(images/banner4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Alex Brush', cursive ;
+    font-size: 40px;
+    line-height: 46px;
+}
+.slogan img {
+    max-width: 56px;
+    margin: 24px;
+}
+.slogan .container {
+    padding: 32px 46px ;
+    
+}
+.slogan .slogan-author {
+    padding: 32px;
+}
+
+/* map */
+.map {
+    background-image: url(images/map.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    color: #fff;
+    text-align: center;
+}
+.map .container-fluid {
+    padding: 32px 156px;
+    background-color: rgba(207, 184, 184, 0.5);
+   
+}
+.map .form {
+    background-color: rgba(202, 147, 27, 0.5);
+    width: 60%;
+    margin: auto ;
+    padding: 32px;
+    color: #000;
+}
+
+.map .form-user {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.map .form-user .user {
+    width: 48%;
+}
+.map .form input {
+    border: none;
+    background-color: transparent;
+    width: 65%;
+}
+#input-messages{
+    height: 128px;
+    width: 100%;  
+}
+.map .form .border-bot {
+    border-bottom: 2px #000 solid;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.map .form .btn-form {
+    border-radius: 0;
+    margin: 0;
+    background-color: red;
+    color: #fff;
+}
+
+/* footer */
+.footer i {
+    width: 24px;
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+}
+.footer .footer-contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .contact {
+    flex-basis: 50%;
+    padding: 0 64px;
+}
+.footer .social {
+    flex-basis: 50%;
+    text-align: end;
+    padding: 24px;
+    margin: auto;
+}
+.footer .social a {
+    padding: 8px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer .social a:hover {
+    color: #ccc;
+}
